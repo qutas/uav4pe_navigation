@@ -44,8 +44,8 @@ experimentTime = dt.now().strftime("%y-%m-%dT%H-%M-%S")         # Load time
 absolute_path = os.path.dirname(os.path.abspath(__file__))
 relative_path = "../../.."
 basePath = os.path.abspath(os.path.join(absolute_path, relative_path))
-logFileName = f'{basePath}/uav4pe_navigation/testing/{experimentTime}.txt'
-print(f'Loading Conmfigurations from: {logFileName}...')
+logFileName = f'{basePath}/uav4pe_navigation/navigation_logs/{experimentTime}.txt'
+print(f'Loading Configurations from: {logFileName}...')
 
 # Global Vars Actions:
 STAY_ON_GROUND = UInt8(0)

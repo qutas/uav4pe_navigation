@@ -14,7 +14,7 @@ absolute_path = os.path.dirname(os.path.abspath(__file__))
 relative_path = "../../.."
 basePath = os.path.abspath(os.path.join(absolute_path, relative_path))
 configFileName = f'{basePath}/uav4pe_mission_planner/config/configRun.cfg'
-print(f'Loading Conmfigurations from: {configFileName}...')
+print(f'Loading Configurations from: {configFileName}...')
 
 class MAP():
     def __init__(self):
